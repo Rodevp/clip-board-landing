@@ -285,3 +285,23 @@
 }
 
 /*work us*/
+
+.work-with-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.work-with-us__item {
+    width: 45%;
+    height: 50px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.work-with-us__item img {
+    width: 85%;
+    height: 100%;
+}
