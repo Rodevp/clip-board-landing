@@ -387,5 +387,89 @@
     justify-content: space-evenly;
 }
 
+@media screen and (min-width: 480px) {
+    
+    .hero__image-content img {
+        width: 95%;
+        height: 95%;
+    }
+    
+    /*about*/
+    .about__title {
+        width: 80%;
+    }
+    
+    .about__paragraph {
+        width: 80%;
+    }
+    
+    .content__btn {
+        width: 90%;
+    }
+    
+    .btn {
+        width: 65%;
+    }
 
+    /*snippets*/
+    
+    .snippet__title {
+        width: 62%;
+    }
+    
+    .snippet__paragraph {
+        width: 65%;
+    }
+    
+    .content__image-snippet {
+        width: 80%;
+    }
+    
+    .snippet__tips-items {
+        width: 80%;
+    }
+    
+    .snippet__tips-item-title {
+        width: 55%;
+    }
+    
+    .snippet__tips-item-paragraph {
+        width: 70%;
+    }
+
+    /*access*/
+    .access__clipboard-title {
+        width: 60%;
+    }
+    .access__clipboard-about {
+        width: 60%;
+    }
+
+    .access__clipboard-img-content {
+        width: 80%;
+    }
+
+    /*workflow*/
+
+    .workflow__title {
+        width: 60%;
+    }
+    
+    .workflow__subtitle {
+        width: 70%;
+    }
+
+    .clipboard__platform-title {
+        width: 55%;
+    }
+
+    .clipboard__platform-about {
+        width: 75%;
+    }
+
+    .footer__logo {
+        width: 45%;
+    }
+
+}
 
