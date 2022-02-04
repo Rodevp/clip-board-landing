@@ -20,7 +20,25 @@
 
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+    background-image: url('./images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.hero__image-content {
+    width: 100px;
+    height: 100px;
+}
 
+.hero__image-content img {
+    width: 100%;
+    height: 100%;
+}
+
+/*about*/
 
 
