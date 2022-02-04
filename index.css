@@ -556,5 +556,124 @@
 
 }
 
+@media  screen and (min-width: 980px) {
+    .hero {
+        background-image: url('./images/bg-header-desktop.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
+    .hero__image-content {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+
+    .content__btn {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .btn {
+        width: 35%;
+    }
+
+    .snippet__tips {
+        flex-direction: row;
+    }
+
+    .content__image-snippet {
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .content__image-snippet img {
+        height: 100%;
+        width: 100%;
+        transform: translateX(-40px);
+        animation: moveImagePc 1s linear forwards;
+    }
+
+    .snippet__tips-information {
+        width: 50%;
+        height: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .snippet__tips-items {
+        align-items: flex-start;
+    }
+
+    .snippet__tips-item-title, .snippet__tips-item-paragraph {
+        text-align: left;
+    }
+
+    .access__clipboard-img-content {
+        width: 70%;
+        height: 400px;
+    }
+
+    .access__clipboard-img-content img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .workflow__items {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .workflow__items-item {
+        width: 30%;
+        height: 100%;
+    }
+
+    .workflow__items-item-title {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .workflow__items-item-paragraph {
+        width: 80%;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .workflow__items-item:nth-child(2), .workflow__items-item:nth-child(3) {
+        padding-bottom: 1.5em;
+    }
+
+    .work-with-us {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .work-with-us__item {
+        width: 15%;
+    }
+
+    .footer__logo {
+        width: 20%;
+    }
+
+    @keyframes moveImagePc {
+        0% {
+            transform: translateX(80px);
+        }
+        50% {
+            transform: translateX(40px);
+        }
+        100% {
+            transform: translateX(-40px);
+        }
+    }
+
+
+}
 
