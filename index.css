@@ -473,3 +473,57 @@
 
 }
 
+@media  screen and (min-width: 620px) {
+    
+    .about__title {
+        width: 64%;
+    }
+
+    .about__paragraph {
+        width: 70%;
+        font-size: 1.1rem;
+    }
+
+    .snippet__title {
+        width: 45%;
+    }
+
+    .content__image-snippet {
+        width: 65%;
+    }
+
+    .access__clipboard-title {
+        width: 45%;
+    }
+
+    .access__clipboard-img-content {
+        width: 65%;
+    }
+
+    .workflow__items-item-title {
+        font-size: 1.5rem;
+    }
+
+    .workflow__items-item-paragraph {
+        font-size: 1rem;
+    }
+
+    .work-with-us__item {
+        width: 35%;
+        margin-bottom: 4rem;
+    }
+
+    .clipboard__platform-title {
+        width: 45%;
+    }
+
+    .clipboard__platform-about {
+        width: 60%;
+    }
+
+    .footer__logo {
+        width: 32%;
+    }
+
+}
+
