@@ -16,7 +16,7 @@
     --Dark-Grayish-Blue: hsl(210, 10%, 33%);
     --Grayish-Blue: hsl(201, 11%, 66%);
 
-    --font: 'jamjuree' sans-serif;
+    --font: 'jamjuree';
 
 }
 
@@ -24,6 +24,7 @@
     display: flex;
     justify-content: center;
     padding-top: 4em;
+    margin-bottom: 2rem;
     background-image: url('./images/bg-header-mobile.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,4 +42,59 @@
 
 /*about*/
 
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.about__title {
+    width: 86%;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: var(--font);
+    font-weight: 600;
+    text-align: center;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.about__paragraph {
+    width: 85%;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5em;
+    text-align: center;
+    font-family: var(--font);
+    color: var(--Grayish-Blue);
+}
+
+.content__btn {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    width: 70%;
+    font-family: var(--font);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+
+.btn--for-ios {
+    background-color: var(--Strong-Cyan);
+}
+
+.btn--for-mac {
+    background-color: var(--Light-Blue);
+}
 
