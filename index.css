@@ -578,6 +578,10 @@
         width: 35%;
     }
 
+    .about {
+        margin-bottom: 0;
+    }
+
     .snippet__tips {
         flex-direction: row;
     }
@@ -656,6 +660,17 @@
 
     .work-with-us__item {
         width: 15%;
+        padding: 0.2em;
+        transition: transform 0.3s linear;
+    }
+
+    .work-with-us__item img {
+        height: 90%;
+    }
+    
+    .work-with-us__item:hover {
+        transform: scale(1.5);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
 
     .footer__logo {
@@ -673,6 +688,58 @@
             transform: translateX(-40px);
         }
     }
+
+}
+
+@media  screen and (min-width: 1020px) {
+    
+    .btn {
+        width: 25%;
+    }
+
+    .footer {
+        flex-direction: row;
+        height: 25%;
+        padding-top: 0;
+    }
+
+    .footer__information {
+        flex-direction: row;
+    }
+
+    .footer__information {
+        width: 70%;
+        height: 100%;
+    }
+
+    .footer__logo {
+        width: 30%;
+    }
+
+    .footer__logo {
+        width: 20%;
+        height: 40px;
+    }
+
+    .footer__items {
+        width: 70%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        font-size: 1rem;
+    }
+
+    .footer__items-item {
+        width: 30%;
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+    }
+
+    .footer__social-network {
+        width: 30%;
+    }
+
 
 
 }
