@@ -527,3 +527,34 @@
 
 }
 
+@media  screen and (min-width: 720px) {
+    
+    .about__title {
+        width: 50%
+    }
+
+    .content__btn {
+        width: 75%;
+    }
+
+    .access__clipboard-img-content {
+        width: 50%;
+    }
+
+    .clipboard__platform-title {
+        width: 35%;
+
+    }
+
+    .footer__logo {
+        width: 28%;
+    }
+
+    .footer__social-network {
+        width: 35%;
+    }
+
+}
+
+
+
