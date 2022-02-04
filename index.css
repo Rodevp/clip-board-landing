@@ -215,4 +215,73 @@
     height: 200px;
 }
 
-/*work*/
+/*workflow*/
+
+.workflow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.workflow__title {
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-family: var(--font);
+    text-align: center;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.workflow__subtitle {
+    width: 80%;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    font-family: var(--font);
+    text-align: center;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.workflow__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workflow__items-item {
+    width: 90%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workflow__items-item-avatar {
+    width: 50%;
+    margin-bottom: 1rem;
+    padding-top: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.workflow__items-item-title {
+    width: 60%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: var(--font);
+    color: var(--Dark-Grayish-Blue);
+}
+
+.workflow__items-item-paragraph {
+    width: 60%;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: var(--font);
+    color: var(--Grayish-Blue);
+}
+
+/*work us*/
